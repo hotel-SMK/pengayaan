@@ -1,0 +1,6 @@
+{
+  "name": "SI-REMA SMKN 1 Bebandem",
+  "description": "Aplikasi Penyusunan Program Remedial, Pengayaan, dan Tindak Lanjut SMK Negeri 1 Bebandem lengkap dengan instrumen soal, aktivitas projek, dan ekspor Word/PDF.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
