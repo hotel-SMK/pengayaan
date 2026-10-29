@@ -10,49 +10,14 @@ export const KopSurat: React.FC<KopSuratProps> = ({ identitas }) => {
     <div className="relative border-b-[3.5px] border-black pb-2 mb-6">
       {/* Container with logos on both sides and centered text */}
       <div className="flex items-center justify-between gap-4">
-        {/* Logo Pemprov Bali (Vector SVG) */}
+        {/* Logo Pemprov Bali (Sebelah Kiri Atas) */}
         <div className="w-20 h-24 flex-shrink-0 flex items-center justify-center">
-          <svg
-            viewBox="0 0 100 120"
-            className="w-18 h-22 drop-shadow-sm"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            {/* Perisai Segi Lima Bali */}
-            <path
-              d="M50 4 L94 20 L80 94 L50 116 L20 94 L6 20 Z"
-              fill="#c2410c"
-              stroke="#fbbf24"
-              strokeWidth="3"
-            />
-            {/* Lingkaran dalam */}
-            <circle cx="50" cy="55" r="32" fill="#1e3a8a" stroke="#fef08a" strokeWidth="2" />
-            {/* Candi Bentar Meru Simbolik */}
-            <path
-              d="M38 78 L38 38 L46 32 L46 78 Z"
-              fill="#fbbf24"
-            />
-            <path
-              d="M62 78 L62 38 L54 32 L54 78 Z"
-              fill="#fbbf24"
-            />
-            {/* Padi & Kapas */}
-            <path
-              d="M30 78 C25 60 30 45 42 36"
-              stroke="#fef08a"
-              strokeWidth="2.5"
-              strokeLinecap="round"
-            />
-            <path
-              d="M70 78 C75 60 70 45 58 36"
-              stroke="#22c55e"
-              strokeWidth="2.5"
-              strokeLinecap="round"
-            />
-            {/* Pita Bintang */}
-            <path d="M32 86 L68 86 L62 94 L38 94 Z" fill="#ffffff" stroke="#991b1b" strokeWidth="1" />
-            <text x="50" y="92" fontSize="5" textAnchor="middle" fill="#991b1b" fontWeight="bold">BALI DWIPA</text>
-          </svg>
+          <img
+            src="https://i.imgur.com/FPCA2Ql.png"
+            alt="Logo Pemerintah Provinsi Bali"
+            className="max-h-24 max-w-20 object-contain drop-shadow-xs"
+            crossOrigin="anonymous"
+          />
         </div>
 
         {/* Text Header Resmi */}
@@ -77,27 +42,14 @@ export const KopSurat: React.FC<KopSuratProps> = ({ identitas }) => {
           </p>
         </div>
 
-        {/* Logo SMK / Kemendikbudristek (Vector SVG) */}
+        {/* Logo SMK Negeri 1 Bebandem (Sebelah Kanan Atas) */}
         <div className="w-20 h-24 flex-shrink-0 flex items-center justify-center">
-          <svg
-            viewBox="0 0 100 100"
-            className="w-18 h-18 drop-shadow-sm"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            {/* Lingkaran Luar Biru Vokasi */}
-            <circle cx="50" cy="50" r="46" fill="#0284c7" stroke="#0369a1" strokeWidth="2" />
-            {/* Sayap Kemendikbud / Bintang */}
-            <polygon
-              points="50,15 54,28 68,28 57,36 61,49 50,41 39,49 43,36 32,28 46,28"
-              fill="#fef08a"
-            />
-            {/* Roda Gigi Vokasi SMK */}
-            <circle cx="50" cy="62" r="18" fill="#ffffff" stroke="#f59e0b" strokeWidth="2.5" />
-            <circle cx="50" cy="62" r="7" fill="#0284c7" />
-            {/* Teks SMK BISA */}
-            <text x="50" y="90" fontSize="7" textAnchor="middle" fill="#ffffff" fontWeight="bold">SMK BISA-HEBAT</text>
-          </svg>
+          <img
+            src="https://i.imgur.com/zuR9i4p.png"
+            alt="Logo SMK Negeri 1 Bebandem"
+            className="max-h-24 max-w-20 object-contain drop-shadow-xs"
+            crossOrigin="anonymous"
+          />
         </div>
       </div>
 

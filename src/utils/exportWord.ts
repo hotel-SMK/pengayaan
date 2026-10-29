@@ -169,13 +169,23 @@ export function exportToWordDoc(data: FullProgramData, titlePrefix: string = 'Pr
 <div class="Section1">
 
   <!-- KOP SURAT RESMI -->
-  <div class="kop-container">
-    <div class="kop-p1">${sanitizeText(identitas.namaProvinsi)}</div>
-    <div class="kop-p2">${sanitizeText(identitas.namaDinas)}</div>
-    <div class="kop-p3">${sanitizeText(identitas.namaSekolah)}</div>
-    <div class="kop-p4">TAHUN AJARAN ${sanitizeText(identitas.tahunPelajaran)}</div>
-    <div class="kop-p5">${sanitizeText(identitas.alamatSekolah)} | Telp: ${sanitizeText(identitas.teleponSekolah)}</div>
-  </div>
+  <table style="width: 100%; border-bottom: 3px double #000000; padding-bottom: 8px; margin-bottom: 18px; border-collapse: collapse;">
+    <tr>
+      <td style="width: 80px; text-align: center; vertical-align: middle;">
+        <img src="https://i.imgur.com/FPCA2Ql.png" width="70" height="85" alt="Logo Pemprov Bali" />
+      </td>
+      <td style="text-align: center; vertical-align: middle; padding: 0 10px;">
+        <div class="kop-p1">${sanitizeText(identitas.namaProvinsi)}</div>
+        <div class="kop-p2">${sanitizeText(identitas.namaDinas)}</div>
+        <div class="kop-p3">${sanitizeText(identitas.namaSekolah)}</div>
+        <div class="kop-p4">TAHUN AJARAN ${sanitizeText(identitas.tahunPelajaran)}</div>
+        <div class="kop-p5">${sanitizeText(identitas.alamatSekolah)} | Telp: ${sanitizeText(identitas.teleponSekolah)}</div>
+      </td>
+      <td style="width: 80px; text-align: center; vertical-align: middle;">
+        <img src="https://i.imgur.com/zuR9i4p.png" width="75" height="75" alt="Logo SMK Negeri 1 Bebandem" />
+      </td>
+    </tr>
+  </table>
 
   <div class="doc-title">PROGRAM REMEDIAL, PENGAYAAN, DAN TINDAK LANJUT</div>
   <div class="doc-subtitle">KURIKULUM MERDEKA - SMK NEGERI 1 BEBANDEM</div>
